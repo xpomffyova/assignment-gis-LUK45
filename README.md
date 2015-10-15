@@ -20,13 +20,14 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 Fork this repository and fill in (either in English, or in Slovak):
 
-**Application description**: `<fill in>`
+**Application description**:
 Aplikacia, pomocou ktorej viem na mape v mojej blizkosti najst cokolvek, co sa tyka IT.
 - eventy
 - networking places
 - spolocnosti
 - ponuky prace
 - obchody/servisy/sklady
+
 **Data source**: `<fill in>`
 
 **Technologies used**: `<fill in>`
