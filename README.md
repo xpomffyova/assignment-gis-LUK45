@@ -21,13 +21,11 @@ Build a map-based application, which lets the user see geo-based data on a map a
 Fork this repository and fill in (either in English, or in Slovak):
 
 **Application description**:
-Aplikacia, pomocou ktorej viem na mape v mojej blizkosti najst cokolvek, co sa tyka IT.
-- eventy
-- networking places
-- spolocnosti
-- ponuky prace
-- obchody/servisy/sklady
+Aplikacia, pomocou ktorej viem na mape nájsť všetky krčmy a reštaurácie na Slovenku. Aplikácia bude umožnovať:
+- zoradenie podla vzdialenosti
+- filtrovanie podla mena
+- filtrovanie podla vzdialenosti
 
-**Data source**: `<fill in>`
+**Data source**: `open street map`
 
-**Technologies used**: `<fill in>`
+**Technologies used**: `python - cherrypy, javascript - mapbox.js`

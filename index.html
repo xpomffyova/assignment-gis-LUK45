@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>pubs&restaurants</title>
+		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+		<script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
+		<link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<link rel="stylesheet" href="/static/css/style.css">
+		
+	</head>
+	<body>
+		<div class='sidebar'>
+			<div class='menu'>
+				<a href='#' id='geolocate' class='ui-button' >find</a>
+				<input id="search_name" type="text" name="search_name" placeholder="filter by name" required>
+	            <input id="search_dist" type="text" name="search_dist" placeholder="distance [km]" required>
+            
+			</div>
+			<div class='heading'>
+    			<h1>Pubs & Restaurants:</h1>
+    		</div>
+    		<div id='listings' class='listings'></div>
+
+  		</div>
+		<div id='map' class='map pad2'>Map</div>
+		<script src="/static/js/application.js">
+       
+   		</script>
+
+	</body>
+</html>
